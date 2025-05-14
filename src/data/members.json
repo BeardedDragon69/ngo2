@@ -1,0 +1,26 @@
+[
+  {
+    "id": "2",
+    "name": "Rahul Sharma",
+    "position": "Program Manager",
+    "age": 32,
+    "photo": "/team-member1.jpg",
+    "bio": "Rahul oversees our education initiatives and has successfully implemented numerous programs for underprivileged children."
+  },
+  {
+    "id": "3",
+    "name": "Ananya Patel",
+    "position": "Community Outreach",
+    "age": 28,
+    "photo": "/team-member2.jpg",
+    "bio": "Ananya builds relationships with local communities and ensures our programs address their specific needs."
+  },
+  {
+    "name": "df",
+    "position": "sfs",
+    "age": 25,
+    "photo": "blob:http://localhost:3000/1f34a893-bbc6-4625-8896-44a57c7f79e4",
+    "bio": "czcz",
+    "id": "1747138298928"
+  }
+]

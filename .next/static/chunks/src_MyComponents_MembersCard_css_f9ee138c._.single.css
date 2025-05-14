@@ -1,0 +1,139 @@
+/* [project]/src/MyComponents/MembersCard.css [app-client] (css) */
+.member-card {
+  backdrop-filter: blur(12px);
+  cursor: pointer;
+  background: linear-gradient(135deg, #3b82f60d 0%, #60a5fa1a 100%);
+  border: 1px solid #ffffff1a;
+  border-radius: 20px;
+  flex-direction: column;
+  width: 300px;
+  height: 450px;
+  margin: 1rem;
+  padding: 1.5rem;
+  transition: all .3s;
+  display: flex;
+  overflow: hidden;
+  box-shadow: 0 8px 32px #0000001a;
+}
+
+.member-card:hover {
+  background: linear-gradient(135deg, #3b82f61a 0%, #60a5fa26 100%);
+  box-shadow: 0 12px 32px #3b82f633;
+}
+
+.member-photo-container {
+  border-radius: 15px;
+  width: 100%;
+  height: 250px;
+  margin-bottom: 1rem;
+  position: relative;
+  overflow: hidden;
+}
+
+.member-photo {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+  transition: transform .5s;
+}
+
+.member-card:hover .member-photo {
+  transform: scale(1.05);
+}
+
+.member-overlay {
+  background: linear-gradient(to top, #0009 0%, #0000 50%);
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.member-info {
+  flex-direction: column;
+  flex: 1;
+  display: flex;
+}
+
+.member-name {
+  color: #3b82f6;
+  letter-spacing: .5px;
+  margin: 0 0 .25rem;
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+
+.member-position {
+  color: #4b5563;
+  border-bottom: 1px solid #4b556333;
+  margin: 0 0 1rem;
+  padding-bottom: .5rem;
+  font-size: 1rem;
+  font-weight: 500;
+}
+
+.member-details {
+  margin-bottom: 1rem;
+  display: flex;
+}
+
+.detail-item {
+  flex-direction: column;
+  margin-right: 1rem;
+  display: flex;
+}
+
+.detail-label {
+  color: #6b7280;
+  margin-bottom: .25rem;
+  font-size: .75rem;
+}
+
+.detail-value {
+  color: #1f2937;
+  font-size: 1rem;
+  font-weight: 600;
+}
+
+.member-bio {
+  color: #4b5563;
+  -webkit-line-clamp: 3;
+  text-overflow: ellipsis;
+  -webkit-box-orient: vertical;
+  margin: 0;
+  font-size: .9rem;
+  line-height: 1.4;
+  display: -webkit-box;
+  overflow: hidden;
+}
+
+.member-card-link {
+  color: inherit;
+  text-decoration: none;
+  transition: transform .3s;
+  display: block;
+}
+
+.member-card-link:hover {
+  transform: translateY(-5px);
+}
+
+@media screen and (width <= 768px) {
+  .member-card {
+    width: calc(50% - 2rem);
+  }
+}
+
+@media screen and (width <= 480px) {
+  .member-card {
+    width: 100%;
+    height: auto;
+  }
+
+  .member-photo-container {
+    height: 200px;
+  }
+}
+
+/*# sourceMappingURL=src_MyComponents_MembersCard_css_f9ee138c._.single.css.map*/

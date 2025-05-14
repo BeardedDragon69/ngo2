@@ -1,0 +1,18 @@
+{
+  "/_not-found/page": "/_not-found",
+  "/api/events/route": "/api/events",
+  "/api/media/route": "/api/media",
+  "/api/members/[id]/route": "/api/members/[id]",
+  "/api/members/route": "/api/members",
+  "/favicon.ico/route": "/favicon.ico",
+  "/about/page": "/about",
+  "/community/[id]/page": "/community/[id]",
+  "/community/page": "/community",
+  "/home/page": "/home",
+  "/login/page": "/login",
+  "/media/page": "/media",
+  "/member_control/page": "/member_control",
+  "/page": "/",
+  "/team/page": "/team",
+  "/admin/page": "/admin"
+}
